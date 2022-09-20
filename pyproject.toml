@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "linehelper"
+version = "0.1.0"
+description = "A bot that helps organize LINE messages."
+authors = ["cloude <boxbox557@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+line-bot-sdk = "^2.3.0"
+
+
+[tool.poetry.group.dev.dependencies]
+fastapi = "^0.85.0"
+uvicorn = "^0.18.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

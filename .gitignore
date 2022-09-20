@@ -1,0 +1,7 @@
+# credential
+
+**/secrets/*
+!**/*.example
+
+# python
+**/__pycache__
